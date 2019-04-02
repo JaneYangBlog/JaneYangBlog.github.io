@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag -->
+<head><meta name="generator" content="Hexo 3.8.0">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Description-->
+
+    
+
+    
+        <meta name="description" content="At NetEase Game Developers Summit 2019, Weldon Zhang, Technical Director of Netease Game Artificial Intelligence Lab, shared the exploration and achie">
+    
+
+    <!--Author-->
+    
+        <meta name="author" content="Jane Yang">
+    
+
+    <!--Open Graph Title-->
+    
+        <meta property="og:title" content="NetEase Game AI Laboratory sharing :AI technology applied in games">
+    
+
+    <!--Open Graph Description-->
+    
+        <meta property="og:description" content="At NetEase Game Developers Summit 2019, Weldon Zhang, Technical Director of Netease Game Artificial Intelligence Lab, shared the exploration and achie">
+    
+
+    <!--Open Graph Site Name-->
+        <meta property="og:site_name" content="Jane Yang&#39;s Blog">
+
+    <!--Type page-->
+    
+        <meta property="og:type" content="article">
+    
+
+    <!--Page Cover-->
+    
+    
+        <meta property="og:image" content="https://janeyangblog.github.iohttps://www.juxtapoz.com/images/EbenBenson/2018/September-December/MaxwellMcMaster/muralresized.jpg">
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+
+    
+
+    
+        <meta name="twitter:image" content="https://janeyangblog.github.iohttps://www.juxtapoz.com/images/EbenBenson/2018/September-December/MaxwellMcMaster/muralresized.jpg">
+    
+
+    <!-- Title -->
+    
+    <title>NetEase Game AI Laboratory sharing :AI technology applied in games - Jane Yang&#39;s Blog</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Gallery -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.css" type="text/css" rel="stylesheet">
+
+    <!-- Google Analytics -->
+    
+
+
+    <!-- favicon -->
+    
+    <link rel="icon" href="Jane Yang’s Blog">
+    
+
+</head>
+
+
+<body>
+
+    <!-- Menu -->
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">JaneYang's Blog</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+                        <a href="/">
+                            
+                                主页
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/archives">
+                            
+                                归档
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/tags">
+                            
+                                标签
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/categories">
+                            
+                                分类
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://github.com/klugjo/hexo-theme-clean-blog">
+                            
+                                <i class="fa fa-github fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+    <!-- Main Content -->
+    <!-- Page Header -->
+<!-- Set your background image for this header in your post front-matter: cover -->
+
+<header class="intro-header" style="background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1554045183093&di=2c4535897daf47f6b6898d69e7c5090a&imgtype=0&src=http%3A%2F%2Fstatic.oneplus.cn%2Fdata%2Fattachment%2Fforum%2F201603%2F02%2F231541xfixyyipy2zyiv2c.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>NetEase Game AI Laboratory sharing :AI technology applied in games</h1>
+                    
+                    <h2 class="post-subheading">
+                        Powerful applications of artificial intelligence in games
+                    </h2>
+                    
+                    <span class="meta">
+                        <!-- Date and Author -->
+                        
+                        
+                            2019-04-02
+                        
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Tags and categories -->
+           
+                <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 post-tags">
+                    
+                        
+
+<a href="/categories/Technology/">Technology</a>
+
+                    
+                </div>
+                <div class="col-lg-4 col-md-5 post-categories">
+                    
+                </div>
+            
+
+            <!-- Gallery -->
+            
+
+            <!-- Post Main Content -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <p>At NetEase Game Developers Summit 2019, Weldon Zhang, Technical Director of Netease Game Artificial Intelligence Lab, shared the exploration and achievements of the artificial intelligence laboratory on the game AI, and performed an inventory of the AI technology applied in the game.</p>
+<div align="center"><img src="http://n.sinaimg.cn/games/crawl/59/w550h309/20190319/J9-t-hukwxnv6644720.jpg"></div>
+
+<p>As we all know, China is the largest game market in the world. One is due to the huge number of players, and the other is that it is inseparable from the technological breakthroughs of various companies.</p>
+<p>As part of this, Netease also pays great attention to technology accumulation. At the same time, in the seemingly prosperous game market, we also face many challenges. After years of training, players have higher and higher requirements for the quality of the game, and the development cost of the game has increased year by year. At the same time, due to the player’s structural adjustment and market changes, it has hindered our market growth. These problems require us to continue to innovate in technology. AI Lab hopes to serve the game development department through artificial intelligence technology, and hopes to create a boutique game.</p>
+<div align="center"><img src="http://n.sinaimg.cn/games/crawl/35/w550h285/20190319/jBz1-hukwxnv6644811.jpg"></div>
+
+<p>For those outside the game industry, the real understanding of AI game may start from AlphaGo, which makes people feel that the spring of AI game is coming. Last year OpenAI Five was able to beat average players in Dota 2.</p>
+<p>All of the AI technologies – voice, vision, machine learning – can be applied to games, in addition to the usual AI  game .This time, I want to discuss which technologies can be applied in the game, so the starting point is from the technical aspect, not from the product aspect. <strong>Next, it is divided into five directions for sharing: image API, model animation, voice text, AI game robot and intelligent marketing operation.</strong></p>
+<hr>
+<h2 id="1-Image-API"><a href="#1-Image-API" class="headerlink" title="1. Image API"></a><strong>1. Image API</strong></h2><p>This is something the traditional AI industry often used in games. Because in many game promotion operations and even game interactions, players often need to upload images, there are many applications. To give a few examples: First, the face is unlocked, and can also be applied to the mobile game non-login password to unlock; second, the face beautification makes the player interaction process more harmonious; third, face transformation, making age changes, face changes, etc. Fun gameplay and marketing empowerment are not only static face changes, but also dynamic replacement. Fourth, image detection, detection of yellow map detection, junk advertisement detection, political character detection and horror detection, filtering out inappropriate content.</p>
+<div align="center"><img src="http://n.sinaimg.cn/games/crawl/66/w550h316/20190319/HeF9-hukwxnv6644878.jpg"></div>
+
+<p>There is also a type of image API that is the generation and transformation of game art images. The production of art resources is the largest piece of the entire game production cost, so we will think about whether there are any AI technologies that can automatically generate these art resources, of course, not limited to images. Later, it was found that the use of image technology for scene stylization, character stylization, automatic coloring, and personal fonts can help the art save costs.</p>
+<h2 id="2-Model-animation"><a href="#2-Model-animation" class="headerlink" title="2. Model animation"></a><strong>2. Model animation</strong></h2><p>Model generation is mainly around 3D scan reconstruction of character characters, animal characters, objects, and the recent popular smart pinch face.</p>
+<div align="center"><img src="http://n.sinaimg.cn/games/crawl/32/w550h282/20190319/Pfuu-hukwxnv6645035.jpg"></div>
+
+<p>Pinching has become a standard for many games, and there are many places to explore. It takes a lot of time for the player to reach the face he wants, so if you upload the player’s own photo, you can automatically match the face. In addition, it is also possible to use the images uploaded by the player and the model of the game to be integrated, to perform smart pinching, to give the player a good sense of game substitution, and to perform pet game on the head model to realize fun gameplay.</p>
+<p>With the human head and the human body model, animation generation is required. We also carried out a lot of research and development on animation, such as lip animation and emoticon animation. At the same time, we also did a lot of explorations on expression capture, motion capture and animation controller.</p>
+<h2 id="3-Voice-text-application"><a href="#3-Voice-text-application" class="headerlink" title="3. Voice text application"></a><strong>3. Voice text application</strong></h2><p>There are also many applications in speech and text, such as speech recognition, speech synthesis, voiceprint recognition, text generation, text categorization, text interaction, and so on.</p>
+<p>Speech recognition is mainly used to identify the voice uploaded by the player, to filter out inappropriate content, and to control the game using voice recognition technology;</p>
+<p>Speech synthesis is mainly used in NPC dubbing. It is based on end-to-end neural network speech synthesis, generates multi-language emotional speech, and can also do some voiceprint recognition, such as smelling people, thus performing player identity verification without inputting identity information.</p>
+<h2 id="4-AI-Game-robot"><a href="#4-AI-Game-robot" class="headerlink" title="4. AI Game robot"></a><strong>4. AI Game robot</strong></h2><p>Similar to DeepMind and OpenAI, we also do a lot of work on AI game robots. Combined with supervised learning, intensive learning, and rule base, we have made many attempts in the micro-operations and decision-making of game characters, which can be applied to cards and confrontation games.</p>
+<h2 id="5-Intelligent-marketing-operations"><a href="#5-Intelligent-marketing-operations" class="headerlink" title="5.Intelligent marketing operations"></a><strong>5.Intelligent marketing operations</strong></h2><p>In terms of intelligent marketing, we can use image recognition technology for external detection. Players can also be recommended, such as props recommendation, matching recommendations, battlefield matching, etc. Finally, you can also share images, text, animation and other players.</p>
+<div align="center"><img src="http://n.sinaimg.cn/games/crawl/39/w550h289/20190319/Egii-hukwxnv6645401.jpg"></div>
+
+
+<p>The game plug-in destroys the balance of the game, so the game needs to detect these plug-ins. We trained a lightweight plug-in cheat detection model based on deep learning, and put it on the PC or mobile to do timing detection, which can identify the plug-in. The accuracy of the model is very high, and it takes up very little resources, and the detection speed is very fast, which can deeply combat these plug-ins.</p>
+<p><strong>There is no doubt that artificial intelligence brings more convenience and more diverse gameplay to game development.</strong> At the same time, the use of artificial intelligence in a game will directly affect the playability of the game. How to add more and more innovative artificial intelligence technology based on the existing technology level is also a topic worth discussing in future game development. In the future, in the game and more fields, artificial intelligence will have more and more powerful applications.</p>
+<p><em>For more information, please visit :</em> <a href="https://ai.163.com/#/m/overview" target="_blank" rel="noopener">NETEASE-AI</a></p>
+
+
+                
+            </div>
+
+            <!-- Comments -->
+            
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
+
+
+                </div>
+            
+        </div>
+    </div>
+</article>
+
+    <!-- Footer -->
+    <hr>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+
+                    
+
+                    
+                        <li>
+                            <a href="https://github.com/klugjo/hexo-theme-clean-blog" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+                        <li>
+                            <a href="https://www.linkedin.com/in/%E6%80%9D%E5%9C%86-%E6%9D%A8-a7963713a?trk=profile_share_wechat&from=singlemessage&isappinstalled=0" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+
+                    
+                </ul>
+                <p class="copyright text-muted">&copy; 2019 Jane Yang<br></p>
+                <p class="copyright text-muted">Original Theme <a target="_blank" href="http://startbootstrap.com/template-overviews/clean-blog/">Clean Blog</a> from <a href="http://startbootstrap.com/" target="_blank">Start Bootstrap</a></p>
+                <p class="copyright text-muted">Adapted for <a target="_blank" href="https://hexo.io/">Hexo</a> by <a href="http://www.codeblocq.com/" target="_blank">Jonathan Klughertz</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- After footer scripts -->
+    
+<!-- jQuery -->
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<!-- Gallery -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- Disqus Comments -->
+
+
+
+</body>
+
+</html>
